@@ -38,12 +38,23 @@
   <h1>Contact Me:</h1>
 
   <form  action="mailto:romano@hotmail.com.hk" method="post" enctype="text/plain">
-    <p class="contactform">Enter your details below if you want me to get in contact:<p>
-      <input class="contactform" type="text" name="namefield" value="Name"><br>
-      <input class="contactform" type="text" name="emailfield" value="Email"><br>
-      <input class="contactform" type="text" name="messagefield" value="Message" size="50"><br>
-      <input class="contactform" type="submit" value="Submit">
-      <input class="contactform" type="reset" value="Reset"><br>
+
+  <div class="form-group">
+    <label for="InputEmail">Your Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email">
+  </div>
+
+  <div class="form-group">
+    <label for="InputName">Your Name</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your name">
+  </div>
+
+  <div class="form-group">
+    <label for="Message">Your Message</label>
+    <textarea class="form-control" id="message" rows="3" placeholder="Your message goes here"></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
 
   </form>
 

@@ -97,12 +97,26 @@ body{
   margin-bottom: 5px;
 }
 
+/* About */
+
+#easterlink {
+  color: #392e6d;
+}
+
+#easterlink:hover{
+  color: white;
+}
+
+.easterimg {
+  display: block;
+  margin: 0 auto;
+}
+
 /* Keeping Footer Down */
 
 #container {
    min-height:100%;
    position:relative;
-   height:100%;
 }
 #header {
    background:#392e6d;
@@ -117,7 +131,7 @@ body{
    bottom:0;
    width:100%;
    height:60px;   /* Height of the footer */
-   background:#6cf;
+   background:#3c3c3c;
 }
 
 /* Default settings for website pages */
