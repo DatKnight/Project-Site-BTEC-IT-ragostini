@@ -55,11 +55,13 @@ button {
 }
 
 .navlist{
+  display: inline;
   margin: 0;
   padding: 0;
 }
 
 .navlink {
+  display: inline;
   padding: 6px 8px;
   color: white;
 }
