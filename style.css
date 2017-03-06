@@ -36,6 +36,14 @@ footer {
   color: #ccc;
 }
 
+/* This is the css for the picture on the index page, it sets the width to 15% of the page, aligns it to the middle of the page, and adds 15 pixels of padding all around the image */
+#profile {
+  width: 15%;
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+}
+
 .break{
   background-color: #392e6d;
   color: white;
