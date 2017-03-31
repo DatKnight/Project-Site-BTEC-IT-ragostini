@@ -1,20 +1,20 @@
 /* This sets all h1 elements to have a blue colour and be centered on the page relative to the body  */
 h1 {
-  color: #392e6d;
+  color: white;
   margin-bottom: 30px;
   text-align: center;
 }
 
 /* This sets all h2 elements to have a blue colour and be centered on the page relative to the body  */
 h2 {
-  color: #392e6d;
+  color: white;
   margin-bottom: 30px;
   text-align: center;
 }
 
 /* This sets all h3 elements to have a blue colour and be centered on the page relative to the body  */
 h3 {
-  color: #392e6d;
+  color: white;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -45,12 +45,12 @@ footer {
 }
 
 .break{
-  background-color: #392e6d;
+  background-color: #3c3c3c;
   color: white;
 }
 
 .head{
-  background-color: #392e6d;
+  background-color: #3c3c3c;
   padding-bottom: 10px;
 }
 
@@ -81,9 +81,6 @@ button {
   color: white;
 }
 
-.navli {
-  display: inline;
-}
 
 .themelist{
   display: inline;
@@ -117,6 +114,7 @@ body{
   margin:0;
   padding:0;
   height:100%;
+  background-color: #7A7E80;
 }
 
 /* Any element with this class applied to them will have whitespace the size of 20% of the page between itself and both sides of the screen */
@@ -124,11 +122,12 @@ body{
   margin-left: 20%;
   margin-right: 20%;
   text-align: left;
+  color: white;
 }
 
 /* This CSS ensures that when the mouse cursor hovers over a link in the navbar, it changes to a dark blue colour temporarily */
 .navlink:hover{
-  color: #003264;
+    color: #003264;
   text-decoration: none;
 }
 
@@ -164,7 +163,7 @@ body{
    position:relative;
 }
 #header {
-   background:#392e6d;
+   background:#3c3c3c;
    padding:10px;
 }
 #body {
@@ -187,6 +186,7 @@ body{
     margin:0;
     padding:0;
     height:100%;
+    background-color: #7A7E80;
   }
 
   .contactform{
