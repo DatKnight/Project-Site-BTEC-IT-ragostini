@@ -24,7 +24,7 @@ function changeimg(id,src){
 
 var style_cookie_name = "style" ;
 var style_cookie_duration = 30 ;
-var style_domain = "style.css" ;
+var style_domain = "https://datknight.github.io/Project-Site-BTEC-IT-ragostini/index.html" ;
 
 // *** END OF CUSTOMISABLE SECTION ***
 // You do not need to customise anything below this line
