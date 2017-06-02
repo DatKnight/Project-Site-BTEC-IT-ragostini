@@ -46,7 +46,7 @@
 	<img src="Images/My Face Edit 1.jpg" id="profile" onclick="changeimg('profile','Images/cute_cat_profile.jpg');">
 
 	<!--These <p> tags are associated with the "lorem" class, this forces them to have a specific margin from the left of the screen, defined in the stylesheet-->
-	<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p id = "lorem" class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 <!--This div is associated with an Id in to set up a system in CSS to keep the footer on the bottom of the screen at all times-->
@@ -63,6 +63,19 @@
 				</li>
 				<li class="themeli">
 					<a class="themelink" onclick="switch_style('normal')">Normal</a>
+				</li>
+			</ul>
+		</nav>
+
+		<p class="name">Text Size:</p>
+
+		<nav class="theme">
+			<ul class="themelist">
+				<li class="themeli">
+					<a class="themelink" onclick="changeSize('large')">Large</a>
+				</li>
+				<li class="themeli">
+					<a class="themelink" onclick="changeSize('normal')">Normal</a>
 				</li>
 			</ul>
 		</nav>

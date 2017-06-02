@@ -21,14 +21,19 @@ function changeimg(id,src){
 }
 
 function changeSize(textSize){
-  if (textSize == "Normal") {
-    document.getElementById("lorem").className =
-   document.getElementById("lorem").className.replace
-      ( /(?:^|\s)font-size(?!\S)/g , '' );
+
+  if (textSize == "normal") {
+    var paragraphs = document.getElementsByClassName('lorem');
+    console.log(paragraphs);
+    for(i=0; i<paragraphs.length; i++) {
+      paragraphs[i].style.fontSize = '1em';
   }
 
-  else if (textSize == "Large"){
-
+  else if (textSize == "large"){
+    var paragraphs = document.getElementsByClassName('lorem');
+    console.log(paragraphs);
+    for(i=0; i<paragraphs.length; i++) {
+      paragraphs[i].style.fontSize = '2em';
   }
 
 }

@@ -124,6 +124,7 @@ body{
   margin-left: 20%;
   margin-right: 20%;
   text-align: left;
+  font-size: 1em;
 }
 
 /* This CSS ensures that when the mouse cursor hovers over a link in the navbar, it changes to a dark blue colour temporarily */
