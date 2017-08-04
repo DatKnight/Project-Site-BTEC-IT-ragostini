@@ -21,16 +21,30 @@ function changeimg(id,src){
 }
 
 function changeSize(textSize){
-  if (textSize == "Normal") {
-    document.getElementById("lorem").className =
-   document.getElementById("lorem").className.replace
-      ( /(?:^|\s)font-size(?!\S)/g , '' );
+
+  if (textSize == "normal") {
+    var paragraphs = document.getElementsByClassName('lorem');
+    for(i=0; i<paragraphs.length; i++) {
+      paragraphs[i].style.fontSize = '1em';
   }
 
-  else if (textSize == "Large"){
+}
+
+  else if (textSize == "large"){
+    var paragraphs = document.getElementsByClassName('lorem');
+    for(i=0; i<paragraphs.length; i++) {
+      paragraphs[i].style.fontSize = '2em';
+    }
 
   }
 
+}
+
+function spoilerToggle(id){
+  if(document.getElementById(id).style.display == 'none'){
+     document.getElementById(id).style.display = ''}
+  else {
+    document.getElementById(id) .style.display = 'none'}
 }
 
 // Style switching code

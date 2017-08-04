@@ -62,10 +62,6 @@ footer {
 }
 
 /* This in combination with the .navlist css ensures that the navigation links in the navigation bar at the top of each page are all in line with each other */
-.navli {
-  display: inline;
-}
-
 button {
   text-align: center;
 }
